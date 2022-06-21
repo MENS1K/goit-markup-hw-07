@@ -1,0 +1,41 @@
+.client {
+  padding-top: var(--padding-section);
+  padding-bottom: var(--padding-section);
+}
+.client-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+
+  color: #212121;
+}
+.client-list {
+  display: flex;
+  justify-content: center;
+}
+.client-item {
+  display: flex;
+}
+.client-item:not(:last-child) {
+  margin-right: 30px;
+}
+.client-link {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  box-sizing: border-box;
+  fill: var(--social-link-fill);
+  align-items: center;
+  justify-content: center;
+  transition: var(--typical-duration) var(--typical-timing-function);
+}
+.client-link:hover,
+.client-link:focus {
+  border-color: var(--accent-color);
+  fill: var(--accent-color);
+  outline: none;
+}
