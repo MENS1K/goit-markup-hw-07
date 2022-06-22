@@ -2,7 +2,7 @@
   padding-top: var(--padding-section);
   padding-bottom: var(--padding-section);
 }
-.client-title {
+.client__title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -11,17 +11,18 @@
 
   color: #212121;
 }
-.client-list {
+.client__list {
   display: flex;
   justify-content: center;
 }
-.client-item {
+.client__item {
   display: flex;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.client-item:not(:last-child) {
-  margin-right: 30px;
-}
-.client-link {
+
+.client__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -32,10 +33,10 @@
   align-items: center;
   justify-content: center;
   transition: var(--typical-duration) var(--typical-timing-function);
-}
-.client-link:hover,
-.client-link:focus {
-  border-color: var(--accent-color);
-  fill: var(--accent-color);
-  outline: none;
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
+    outline: none;
+  }
 }
