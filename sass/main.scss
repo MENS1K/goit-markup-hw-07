@@ -1,11 +1,11 @@
-@import './utils/vars';
+@import './utils/variables';
 @import './base/normalize';
 @import './components/container';
 @import './components/visually-hidden';
 @import './base/reset';
 @import './base/common-styles';
 @import './components/logo';
-@import '/sass/components/social-list';
+@import './components/social-list';
 // Modal
 @import './base/backdrop';
 @import './base/modal';
