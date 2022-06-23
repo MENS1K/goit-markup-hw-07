@@ -2,12 +2,12 @@
   padding-bottom: var(--padding-section);
   padding-top: var(--padding-section);
 }
-.btn__list {
+.portfolio__btn-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-.btn__list .btn__item + .btn__item {
+.portfolio__btn-list .portfolio__btn-item + .portfolio__btn-item {
   margin-left: 9px;
 }
 .btn {
@@ -41,7 +41,7 @@
   margin-bottom: -30px;
 }
 
-.top-wrap__container {
+.portfolio__top-container {
   position: relative;
   overflow: hidden;
 }
@@ -61,7 +61,7 @@
   transition: transform var(--typical-duration) var(--typical-timing-function);
 }
 
-.wrap__container {
+.portfolio__wrap-container {
   padding-top: 20px;
   padding-left: var(--padding-portfolio);
   padding-right: var(--padding-portfolio);

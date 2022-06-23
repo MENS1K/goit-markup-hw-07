@@ -3,12 +3,16 @@
 }
 .header {
   border-bottom: 1px solid #ececec;
+  .container {
+    display: flex;
+    align-items: center;
+  }
 }
 
-.container__navigation {
-  display: flex;
-  align-items: center;
-}
+// .container__navigation {
+//   display: flex;
+//   align-items: center;
+// }
 .nav__link {
   display: block;
   padding-top: 32px;
@@ -71,7 +75,7 @@
     color: var(--accent-color);
   }
 }
-.icon__info {
+.info__icon {
   margin-right: 10px;
 }
 .tel {
